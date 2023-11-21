@@ -73,47 +73,6 @@ function appStart() {
         ],
         { duration: 3000, iterations: Infinity }
       );
-    // }
-    //     for (let i = 0; i < 오늘의정답.length; i + 2) {
-    //       const keyBlock1 = document.querySelector(
-    //         `.key-block[data-key='${오늘의정답[i]}']`
-    //       );
-    //       keyBlock1.animate(
-    //         [
-    //           // keyframes
-    //           { transform: "translateX(0px)" },
-    //           { transform: "translateY(-200px)" },
-    //           { transform: "translateX(100px)" },
-    //           { transform: "translateY(50px)" },
-    //           { transform: "translateY(-100px)" },
-    //         ],
-    //         {
-    //           // timing options
-    //           duration: 6000,
-    //           iterations: Infinity,
-    //         }
-    //       );
-    //     }
-    //     for (let i = 1; i < 오늘의정답.length; i + 2) {
-    //       const keyBlock2 = document.querySelector(
-    //         `.key-block[data-key='${오늘의정답[i]}']`
-    //       );
-    //       keyBlock2.animate(
-    //         [
-    //           // keyframes
-    //           { transform: "translateX(0px)" },
-    //           { transform: "translateY(-300px)" },
-    //           { transform: "translateX(-100px)" },
-    //           { transform: "translateY(-50px)" },
-    //           { transform: "translateY(+100px)" },
-    //         ],
-    //         {
-    //           // timing options
-    //           duration: 6000,
-    //           iterations: Infinity,
-    //         }
-    //       );
-    //     }
   };
   const gameOver = () => {
     window.removeEventListener("keydown", handleKeydown);

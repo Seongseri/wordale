@@ -34,7 +34,7 @@ main {
   height: 100px;
   opacity: 0;
   font-family: fantasy;
-  font-weight: bold;
-  background-color: rgb(172, 65, 65);
-  box-shadow: 1px 2px 2px 2px rgb(83, 22, 22);
+  font-weight: normal;
+  background-color: #FEFAE0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
