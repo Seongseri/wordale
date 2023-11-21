@@ -1,30 +1,19 @@
 header {
-  padding: 10px;
   display: flex;
-  width: 98vw;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgb(238, 240, 241);
 }
 
-.header-column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+img {
+  width: 25px;
+  height: 25px;
 }
 
-.header-icon {
-  width: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  cursor: pointer;
-}
-
-.header-title {
-  padding-left: 5%;
+h1 {
+  font-weight: bold;
   font-size: 30px;
-  font-weight: 1000;
-  font-family: "Playfair Display", serif;
+  font-family: fantasy;
+  padding-left: 60px;
 }
